@@ -1,0 +1,237 @@
+.Danger {
+    color: Red;
+}
+
+.Success {
+    color: Green;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.modal {
+    overflow: auto;
+}
+
+body.modal-open {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+body.platform-ios.modal-open {
+    position: fixed;
+}
+
+.section {
+    min-height: 1000px;
+    overflow: hidden;
+    position: 'relative';
+    padding-top: 80px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .fas {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.left-addon .fas { left: 0px; }
+.right-addon .fas {right: 0px; }
+
+.left-addon input { padding-left: 35px; }
+.right-addon input { padding-right: 35px; }
+
+#Booking {
+    padding-top: 250px;
+    background-image: url("../images/landscape/Landscape_Booking.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#BookingJumbtron {
+
+    background: rgba(3, 3, 3, 0.57);
+    border-left: 3px solid #007BFF;
+    border-right: 3px solid #007BFF;
+    border-top: 3px solid #007BFF;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 0px 0px 25px 25px;
+    padding: 25px;
+}
+
+#BookingTitle {
+    color: #FFFFFF;
+}
+
+#BookingP {
+    color: #FFFFFF;
+}
+
+#BookingHr {
+    border-color: #FFFFFF;
+}
+
+#ManageBookingTitle {
+    color: #FFFFFF;
+}
+
+#ManageBookingP {
+    color: #FFFFFF;
+}
+
+#ManageBookingHr {
+    border-color: #FFFFFF;
+}
+
+#CheckinTitle {
+    color: #FFFFFF;
+}
+
+#CheckinP {
+    color: #FFFFFF;
+}
+
+#CheckinHr {
+    border-color: #FFFFFF;
+}
+
+#Flights {
+    /*
+    background-color: #6C757D;
+    */
+    background-image: url("../images/landscape/Landscape_Flights.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#FlightsJumbtron {
+    background: rgba(3, 3, 3, 0.57);
+    border-left: 3px solid #007BFF;
+    border-right: 3px solid #007BFF;
+    border-top: 3px solid #007BFF;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 0px 0px 25px 25px;
+    padding: 25px;
+}
+
+#FlightsTitle {
+    color: #FFFFFF;
+}
+
+#FlightsP {
+    color: #FFFFFF;
+}
+
+#FlightsHr {
+    border-color: #FFFFFF;
+}
+
+#Privileges {
+    background-image: url("../images/landscape/Landscape_Privileges.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#PrivilegesJumbtron {
+    background: rgba(3, 3, 3, 0.57);
+    border-left: 3px solid #007BFF;
+    border-right: 3px solid #007BFF;
+    border-top: 3px solid #007BFF;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 0px 0px 25px 25px;
+    padding: 25px;
+}
+
+#PrivilegesTitle {
+    color: #FFFFFF;
+}
+
+#PrivilegesP {
+    color: #FFFFFF;
+}
+
+#PrivilegesHr {
+    border-color: #FFFFFF;
+}
+
+#About {
+    /*
+    background-color: #6C757D;
+    */
+    background-image: url("../images/landscape/Landscape_About.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#AboutJumbtron {
+    background: rgba(3, 3, 3, 0.57);
+    border-left: 3px solid #007BFF;
+    border-right: 3px solid #007BFF;
+    border-top: 3px solid #007BFF;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 0px 0px 25px 25px;
+    padding: 25px;
+}
+
+#AboutTitle {
+    color: #FFFFFF;
+}
+
+#AboutP {
+    color: #FFFFFF;
+}
+
+#AboutHr {
+    border-color: #FFFFFF;
+}
+
+#Contact {
+    background-image: url("../images/landscape/Landscape_Contact.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#ContactJumbtron {
+    background: rgba(3, 3, 3, 0.57);
+    border-left: 3px solid #007BFF;
+    border-right: 3px solid #007BFF;
+    border-top: 3px solid #007BFF;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 0px 0px 25px 25px;
+    padding: 25px;
+}
+
+#ContactTitle {
+    color: #0A1B4F;
+}
+
+#ContactP {
+    color: #0A1B4F;
+}
+
+#ContactHr {
+    border-color: #0A1B4F;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+    background-color: #0A1B4F;
+    color: #FFFFFF;
+}
